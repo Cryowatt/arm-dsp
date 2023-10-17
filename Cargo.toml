@@ -1,0 +1,19 @@
+[package]
+name = "arm-dsp"
+version = "0.1.0-dev"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+# [[test]]
+# name = "integration"
+# harness = false
+
+[dependencies]
+
+[dev-dependencies]
+defmt-test = "0.3"
+
+[build-dependencies]
+cc = "1.0"
+bindgen = "0.68"

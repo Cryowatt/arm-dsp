@@ -1,0 +1,3 @@
+[alias]
+wt = "watch --clear -- cargo test"
+wb = "watch --clear -- cargo build"
